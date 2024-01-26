@@ -63,6 +63,19 @@ Definitely yes, the current script is in the WIP stage, so we recommend reportin
         }
     )
 ```
+### Using job
+```lua
+    exports['just_interactions']:createInteraction(
+        {
+            entity = yourEntity
+            action = function ()
+                --- Your Action
+            end,
+            label = 'Your Label',
+            job = 'police'
+        }
+    )
+```
 
 ### Remove Interaction on Coords
 ```lua
