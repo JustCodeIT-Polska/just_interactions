@@ -26,7 +26,7 @@ Definitely yes, the current script is in the WIP stage, so we recommend reportin
 
 ### On Coords
 ```lua
-    exports['shx_interactions']:createInteraction(
+    exports['just_interactions']:createInteraction(
         {
             coords = {-324.62585449219, -1514.4627685547, 27.56467628479, 293.38525390625},
             action = function ()
@@ -38,7 +38,7 @@ Definitely yes, the current script is in the WIP stage, so we recommend reportin
 ```
 ### On Entity
 ```lua
-    exports['shx_interactions']:createInteraction(
+    exports['just_interactions']:createInteraction(
         {
             entity = yourEntity
             action = function ()
@@ -48,15 +48,30 @@ Definitely yes, the current script is in the WIP stage, so we recommend reportin
         }
     )
 ```
+### Using canInteract
+```lua
+    exports['just_interactions']:createInteraction(
+        {
+            entity = yourEntity
+            action = function ()
+                --- Your Action
+            end,
+            label = 'Your Label',
+            canInteract = function()
+                --- your logic must return true to show element and return false to hide element
+            end,
+        }
+    )
+```
 
 ### Remove Interaction on Coords
 ```lua
-    exports['shx_interactions']:removeInteraction({-324.62585449219, -1514.4627685547, 27.56467628479, 293.38525390625})
+    exports['just_interactions']:removeInteraction({-324.62585449219, -1514.4627685547, 27.56467628479, 293.38525390625})
 ```
 
 ### Remove Interaction on Entity
 ```lua
-exports['shx_interactions']:removeEntity(yourEntity)
+exports['just_interactions']:removeEntity(yourEntity)
 ```
 
 
