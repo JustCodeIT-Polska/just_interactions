@@ -7,7 +7,7 @@ Do you want to create innovative interactions? With our script it's possible. Ad
 
 ## Video Preview
 
-[![Watch the video](https://cdn.discordapp.com/attachments/985607890100437063/1200452405855269025/JustInteractions.png?ex=65c63b6c&is=65b3c66c&hm=72524b8ee4f3c61b1404a89195dcb3e36db5a64bd1d3e731d6211d3dbf4f0537&)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://cdn.discordapp.com/attachments/985607890100437063/1200452405855269025/JustInteractions.png?ex=65c63b6c&is=65b3c66c&hm=72524b8ee4f3c61b1404a89195dcb3e36db5a64bd1d3e731d6211d3dbf4f0537&)]([https://youtu.be/vt5fpE0bzSY](https://www.youtube.com/watch?v=_-EccJg5jOk))
 
 
 
