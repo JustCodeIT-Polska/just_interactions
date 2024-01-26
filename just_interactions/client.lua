@@ -123,7 +123,7 @@ end)
 --     SetEntityInvincible(Item)
 --     SetEntityAsMissionEntity(Item, true, true)
 
---     exports['shx_interactions']:createInteraction(
+--     exports['just_interactions']:createInteraction(
 --         {
 --             entity = Item,
 --             action = function ()
@@ -136,18 +136,18 @@ end)
 --         }
 --     )
 
---     exports['shx_interactions']:createInteraction(
+--     exports['just_interactions']:createInteraction(
 --         {
 --             entity = NPC,
 --             action = function ()
 --                 TriggerEvent('esx:showNotification', 'Powinno usunąć')
---                 exports['shx_interactions']:removeEntity(NPC)
+--                 exports['just_interactions']:removeEntity(NPC)
 --             end,
 --             label = 'Porozmawiaj',
 --         }
 --     )
 
---     exports['shx_interactions']:createInteraction(
+--     exports['just_interactions']:createInteraction(
 --         {
 --             coords = {-324.62585449219, -1514.4627685547, 27.56467628479, 293.38525390625},
 --             action = function ()
