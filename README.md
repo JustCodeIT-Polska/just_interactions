@@ -4,7 +4,8 @@
 
 Do you want to create innovative interactions? With our script it's possible. Add interactions on Entity, or on given Coordinates You can use it in any script, for example in the Pawn Shop or in the jobs. 
 
-### NoPixel like Textures made by https://github.com/Obtaizen
+#### NoPixel like Textures created by https://github.com/Obtaizen
+Without this guy we wouldn't have been able to create the NoPixel option in the config.
 
 ## Video Preview
 
